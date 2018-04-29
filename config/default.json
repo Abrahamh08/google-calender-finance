@@ -1,0 +1,11 @@
+{
+    "symbols": [
+        "AAPL",
+        "GOOGL"
+    ],
+    "from": "2017-12-31",
+    "to": "2019-01-01",
+    "client_id": "[CLIENT ID]",
+    "client_secret": "[CLIENT SECRET]",
+    "update_interval": 5000
+}
