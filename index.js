@@ -5,7 +5,6 @@ const yahooFinance = require('yahoo-finance');
 const { google } = require('googleapis');
 const readline = require("readline");
 
-console.log(google);
 const OAuth2Client = google.auth.OAuth2;
 const SCOPES = ["https://www.googleapis.com/auth/calendar"];
 const oAuth2Client = new OAuth2Client(config.get("client_id"), config.get("client_secret"), "urn:ietf:wg:oauth:2.0:oob");
